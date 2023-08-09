@@ -1,2 +1,11 @@
-pub mod segment;
-pub mod wal;
+
+
+mod config;
+mod fileext;
+mod segment;
+mod wal;
+
+
+#[cfg(test)]
+mod mock;
+

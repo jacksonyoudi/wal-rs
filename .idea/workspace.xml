@@ -13,14 +13,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ed7ed0-18dc-4962-8e60-e957d491fd5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/segment.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wal.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileext/fileext_unix.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileext/fileext_win.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileext/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mock/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segment/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segment/overhead.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/segment/segment.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wal/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/segment.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wal.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileext/allocate.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,15 +60,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/youdi/project/growup/wal-rs",
+    "last_opened_file_path": "/Users/changyouliang/project/self/wal-rs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1ed7ed0-18dc-4962-8e60-e957d491fd5c" name="Changes" comment="" />
+      <created>1691584441456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691584441456</updated>
+      <workItem from="1691584443895" duration="1624000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
