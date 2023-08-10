@@ -1,10 +1,20 @@
 [package]
 name = "wal-rs"
-version = "0.1.0"
-edition = "2021"
+description = """
+    Write-ahead-log implementation
+"""
+version = "1.0.2"
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["wal", "disk", "file", "write-ahead-log", "persistence"]
+categories = ["filesystem"]
 
 [dependencies]
 byteorder = "1.4.3"
 crc = "1.8"
 fs2 = "0.4.3"
 hex = "0.4.3"
+rand = "0.8.5"
+
+[[example]]
+name = "wal"
