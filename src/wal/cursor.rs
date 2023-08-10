@@ -1,4 +1,4 @@
-use fileext;
+use crate::fileext;
 use std::fs::{write, File, OpenOptions};
 use std::io::{Error, ErrorKind, Result};
 use std::path::PathBuf;

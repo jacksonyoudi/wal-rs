@@ -4,6 +4,7 @@ description = """
     Write-ahead-log implementation
 """
 version = "1.0.2"
+edition = "2021"
 readme = "README.md"
 license-file = "LICENSE"
 license = "MIT"
@@ -11,7 +12,7 @@ keywords = ["wal", "disk", "file", "write-ahead-log", "persistence"]
 categories = ["filesystem"]
 
 [dependencies]
-byteorder = "1.2"
+byteorder = "1.4.3"
 crc = "1.8"
 fs2 = "0.4.3"
 hex = "0.4.3"
