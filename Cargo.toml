@@ -6,6 +6,7 @@ description = """
 version = "1.0.2"
 readme = "README.md"
 license-file = "LICENSE"
+license = "MIT"
 keywords = ["wal", "disk", "file", "write-ahead-log", "persistence"]
 categories = ["filesystem"]
 
@@ -15,6 +16,9 @@ crc = "1.8"
 fs2 = "0.4.3"
 hex = "0.4.3"
 rand = "0.8.5"
+
+[dev-dependencies]
+cargo-license = "0.2.0"
 
 [[example]]
 name = "wal"
