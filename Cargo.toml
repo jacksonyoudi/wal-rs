@@ -11,7 +11,7 @@ keywords = ["wal", "disk", "file", "write-ahead-log", "persistence"]
 categories = ["filesystem"]
 
 [dependencies]
-byteorder = "1.4.3"
+byteorder = "1.2"
 crc = "1.8"
 fs2 = "0.4.3"
 hex = "0.4.3"

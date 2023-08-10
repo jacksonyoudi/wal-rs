@@ -1,8 +1,8 @@
-use byteorder::{BigEndian, ByteOrder};
 use fileext;
 use std::fs::{write, File, OpenOptions};
 use std::io::{Error, ErrorKind, Result};
 use std::path::PathBuf;
+use byteorder::{BigEndian, ByteOrder};
 
 
 const MAGIC_NUM: [u8; 16] = [
@@ -71,7 +71,7 @@ fn read_position(f: &File) -> Result<(u64, u64)> {
     }
 
     let mut buf = [0; 32];
-    fileext::read_exact_at(f, &mut buf, 0)?;
+    fileext::fileext::read_exact_at(f, &mut buf, 0)?;
 
     if buf[..16] != MAGIC_NUM {
         return Err(Error::new(ErrorKind::InvalidData, "invalid magic num"));
